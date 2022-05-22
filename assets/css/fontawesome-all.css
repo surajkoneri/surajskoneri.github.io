@@ -3972,6 +3972,14 @@ readers do not read off random characters that represent icons */
 .fa-twitter-square:before {
   content: "\f081"; }
 
+.fa-microsoft:before{
+  content: "\f3ca"
+}
+
+.fa-microsoft-square:before{
+  content: "\f3ca"
+}
+
 .fa-typo3:before {
   content: "\f42b"; }
 

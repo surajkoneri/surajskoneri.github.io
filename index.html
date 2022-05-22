@@ -20,8 +20,8 @@
 
     <!-- Word Cloud Refs-->
     <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
-    <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
     <title>Suraj Koneri's Profile</title>
 </head>
 
@@ -413,10 +413,10 @@
                         </span>
                     </div>
                     <br />
-                    <!--Skill cloud 
+                    <!--Skill cloud -->
                     <div class="skills-panel wow fadeInUp">
-                        <div id="skillCloud" style="padding-left: 30px;"></div>
-                    </div>-->
+                        <div id="myskillCloud" style="padding-left: 30px;"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -890,11 +890,11 @@
                             <div class="timeline-edu-content col s12-edu m5-edu z-depth-2">
                                 <h5 class="white-text">
                                     Pre-Unverisity Course (PCMB) </h5>
-                                <h6 class="white-text">Marimallpa’s PU College</h6>
+                                <h6 class="white-text">Marimallapa’s PU College</h6>
                                 <h6 class="white-text" style="padding-bottom: 0px;">2006 - 2007</h6>
                                 <div class="divider"></div>
                                 <p style="color: ghostwhite; font-weight: normal;padding-top: 0px;">
-                                    Cleared PUC with aggregate of 88% in Karnataka PU Board from Marimallpa’s PU College
+                                    Cleared PUC with aggregate of 88% in Karnataka PU Board from Marimallapa’s PU College
                                     in Mysore,
                                     Karnataka, India.
                                 </p>
@@ -915,8 +915,8 @@
                                 <h6 class="white-text" style="padding-bottom: 0px;">2004 - 2005</h6>
                                 <div class="divider"></div>
                                 <p style="color: ghostwhite; font-weight: normal; padding-top: 0px;">
-                                    84.8%. I completed
-                                    Senior Secondary from Bharathi Vidhya Mandira High School in Krishna Raja Nagara, Karnataka, India.
+                                    I completed
+                                    Senior Secondary with 84.8% from Bharathi Vidhya Mandira High School in Krishna Raja Nagara, Karnataka, India.
                                 </p>
                             </div>
                         </div>
@@ -933,11 +933,11 @@
         </div>
     </section>
 
-    <!-- Contact Me
+    <!-- Contact Me-->
     <section id="contactme">
         <div class="container z-depth-contactme"
-            style="width: 100%; max-width: none;background: rgba(20, 137, 233);">
-            <table style="width: 100%; padding-bottom:0px; ">
+            style="width: 100%; max-width: none;background: rgba(20, 137, 233);padding-top:40px">
+            <table style="width: 100%; padding-bottom:0px;">
                 <tr>
                     <td>
                         <div class="container-contactme z-depth-2" style="padding-left: 15%;">
@@ -949,12 +949,12 @@
                                 </li>
                                 <li>
                                     <a class="btn btn-floating btn-large tooltipped" target="_blank"
-                                        data-tooltip="+91 88179 11193">
+                                        data-tooltip="+1 8323109443">
                                         <i class="fas fa-phone-square-alt"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://wa.me/18329041884" class="btn btn-floating btn-large tooltipped"
+                                    <a href="https://wa.me/18323109443" class="btn btn-floating btn-large tooltipped"
                                         target="_blank" data-tooltip="WhtsApp">
                                         <i class="fab fa-whatsapp"></i>
                                     </a>
@@ -968,16 +968,17 @@
                                 <li>
                                     <a href="https://twitter.com/messages/compose?recipient_id=&ref_src=twsrc%5Etfw"
                                         class="btn btn-floating btn-large tooltipped" target="_blank"
-                                        data-tooltip="Message @h_kacholiya" data-screen-name="@h_kacholiya"
+                                        data-tooltip="Message @surajskoneri" data-screen-name="@surajskoneri"
                                         data-show-count="false">
                                         <i class="fab fa-twitter"></i>
-                                        Message @h_kacholiya
+                                        Message @surajskoneri
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="btn btn-floating btn-large tooltipped" id="yahooButton" target="_blank"
-                                        data-tooltip="Yahoo" onclick="sendYahooMail()">
-                                        <i class="fab fa-yahoo"></i>
+                                    <a class="btn btn-floating btn-large tooltipped" id="gmailButton" target="_blank"
+                                        data-tooltip="Outlook" onclick="sendMail()">
+                                        <i class="fab fa-microsoft"></i>
+                                        
                                     </a>
                                 </li>
                             </ul>
@@ -988,7 +989,7 @@
             </br>
             
             <div id="sendGmail" hidden style="padding-left: 15%;">
-                <form method="POST" name="sendEmail" action="https://formspree.io/mbjjqneo">
+                <form method="POST" name="sendEmail" action="https://formspree.io/f/xnqwwarj">
                     <table style="line-height: normal; width: 80%;">
                         <tr style="width: 100%;">
                             <td style="width: 20%; text-align: left;">
@@ -1026,8 +1027,8 @@
                 </br>
             </div>
             
-            <div id="sendYahooMail" hidden style="padding-left: 15%;">
-                <form method="POST" name="sendEmail" action="https://formspree.io/myyyaknq">
+            <div id="sendOutlookMail" hidden style="padding-left: 15%;">
+                <form method="POST" name="sendEmail" action="https://formspree.io/f/mjvllbzy">
                     <table style="line-height: normal; width: 80%;">
                         <tr style="width: 100%;">
                             <td style="width: 20%; text-align: left;">
@@ -1055,18 +1056,12 @@
                             </td>
                         </tr>
                     </table>
-                    <div style="text-align: center;">
-                        <input type="button" class="btn-rounded-white" style="background-color: transparent;"
-                            value="Send" onclick="submitYahooForm()">
-                        <input type="reset" class="btn-rounded-white" style="background-color: transparent;"
-                            value="Reset">
-                    </div>
                 </form>
                 </br>
-            </div>-->
+            </div>
             <!-- Footer -->
             <hr class="footer-break" />
-            <footer class="page-footer" style="background: #337ab7">
+            <footer class="page-footer" style="background: rgba(20, 137, 233);">
                 <div class="footer-copyright">
                     <div class="container center" style="font-weight: bold; text-align: center; width: 80%;">
                         This website is open source.
@@ -1085,6 +1080,7 @@
     </section>
 
     <!-- Script References -->
+    
     <script src="assets/js/jquery-1.12.1.js"></script>
     <script src="assets/js/materialize.js"></script>
     <script src="assets/js/typed.min.js"></script>
@@ -1094,7 +1090,7 @@
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/isotope.pkgd.min.js"></script>
     <script src="assets/js/init.js"></script>
-
+    <script src = "assets/js/skillcloud.js"></script>
     <script>
         // When the user scrolls the page, execute myFunction 
         window.onscroll = function () { myFunction() };
@@ -1115,14 +1111,7 @@
             return false; // Prevent page refresh
         }
 
-        //Submit the form for sending email to gmail account
-        function submitYahooForm() {
-            var frm = document.getElementsByName('sendYahooMail')[0];
-            frm.submit(); // Submit the form
-            frm.reset();  // Reset all form data
-            document.gsetElementById("sendYahooMail").style.visibility = "hidden";
-            return false; // Prevent page refresh
-        }
+        
     </script>
 
     <!-- Twitter Direct Message -->
