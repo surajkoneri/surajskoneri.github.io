@@ -83,7 +83,7 @@
     }
     .intro-text-container {
         position: absolute;
-        top: 5%;
+        /*top: 5%;*/
         left: 50%;
         text-align: center;
         transform: translate(-50%, -50%);
