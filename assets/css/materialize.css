@@ -5783,7 +5783,7 @@ nav {
 @media only screen and (min-width: 601px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 64px;
-    line-height: 64px; }
+    line-height: 54px; }
   .navbar-fixed {
     height: 64px; } }
 
@@ -5855,7 +5855,7 @@ h1 {
   }
 
 h2 {
-  font-size: 3.56rem;
+  font-size: 2.56rem;
   line-height: 110%;
   margin: 1.78rem 0 1.424rem 0; }
 
