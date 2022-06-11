@@ -175,7 +175,8 @@
                                             (AWS CloudFormation templates, CfCT, and Terraform) and deploying updates to infrastructure using configuration as code (Ansible Playbooks). Developed Ansible playbook to
                                             create/update firewall security rule. These automated deployment helped to deliver the stable platform by 45% earlier, also helps to resolve any issues by 65% faster.
                                             
-                                            Following DecSecOps process to develop code following all security practice, working closely with digital security team to take requirements and deploying code using automated release pipelines.
+                                            Following DecSecOps process to develop code with all security guidelines and practices, working closely with digital security team to take requirements 
+                                            and deploying code using automated release pipelines.
                                         
                                     </p>
                                     <div class="divider"></div>
@@ -558,7 +559,7 @@
                     </tr>
                 </table>
                 <div id="projects-container" class="row">
-                <!-- PROJECT: Siemens Healthineers -->
+                <!-- PROJECT: AWS COE Setup -->
                 <div class="col s12 m6 l4 project z-projects-depth">
                     <div class="card wow fadeIn">
                         <div class="card-content" style="background-color: rgba(20, 137, 233);">
@@ -572,9 +573,9 @@
                             </br>
                             <p style="color: ghostwhite; font-weight: normal;">
                                 As a Cloud Architect, I am responsible for designing network architecture and standards on AWS for deploying Corp workload.
-                                In this project, we are using existing AWS landscape to create new workload accounts to host Corp network, applications and data. 
-                                This complete setup of provisioning AWS accounts to customizing to deploy IAM roles, SSO with AzureAD as IDP, SCP, VPC, Route table using infrastructure
-                                as code. Code is developed in Terraform, and CloudFormation templates. CF templates deployed using CfCT.
+                                <br/>In this project, we are using existing AWS landscape to create new workload accounts to host Corp network, applications and data. 
+                                <br/>Complete setup of provisioning AWS accounts, deploying customization like IAM roles, SSO with AzureAD as IDP (SAML provider), SCP, using CfCT. 
+                                Core infrastructure provisioning developed in Terraform, and application workload using CloudFormation templates based on serverless framework. 
                                 Configuration of management devices like AD, SMTP relay and hardening of landscape is acheived via Ansible playbooks.
                             </p>
                         </div>
@@ -601,11 +602,94 @@
                                 Build automations using python on azure function app and aws lambda, these built automations will be published as APIs.
                                 APIs will be integrated with ServiceNOW orchestrations to automate user's requests.
                                 These proposed and designed solutions for all automation usecases are discussed in 
-                                bpx Architecture Review Board - this board led by Enterprise Architect, with security, application, network, data and cloud architects.
+                                bpx Architecture Review Board - this board led by Enterprise Architect, and consists of security, application, network, data and cloud architects.
                             </p>
                         </div>
                     </div>
                 </div>
+
+                <!-- PROJECT: Migrating Complex jobs to enterprise scheduler -->
+                <div class="col s12 m6 l4 project z-projects-depth">
+                    <div class="card wow fadeIn">
+                        <div class="card-content" style="background-color: rgba(20, 137, 233);">
+                            <h5><i class="fas fa-tools"></i> &nbsp; Migrating complex integration jobs onto Stonebranch</h5>
+                            <p>
+                                Stonebranch Universal Controller, Universal Data Mover Gateway, Universal Agent, Microsoft Azure, FunctionApp, C# .NET Core, Python, 
+                                Microsoft Graph, Azure Data Factory, Azure Datalake Service, Azure EventHub, Azure Table Storage (NoSQL)
+                            </p>
+                            </br>
+                            <div class="divider-project"></div>
+                            </br>
+                            <p style="color: ghostwhite; font-weight: normal;">
+                                Project is to deploy and configure Stonebranch Universal Controller, Agent and Data mover Gateway (JScape SFTP). This is considered as 
+                                Enterprise scheduler to schedule tasks like ETL jobs.
+
+                                Migrated jobs responsible for time sensitive report which defines priorities for field engineers, and summarizing business unit and well production 
+                                variance data to key decision makers (like CEO, COO, and CFO) which had major issues in the organization. This job also provides data to downstream applications. 
+                                
+                                <br/>
+                                <u>Value:</u>
+                                <ul>
+                                    <li>Delivering the report and data <u>on-time</u> everyday</li>
+                                    <li>Reduce critical incidents <u>from 4 average per week to 0</u></li>
+                                    <li>Cost savings of $100,000 per every instance of NOT delivering the report</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT: SHILA - the Chatbot -->
+                <div class="col s12 m6 l4 project z-projects-depth">
+                    <div class="card  fadeIn">
+                        <div class="card-content" style="background-color: rgba(20, 137, 233);">
+                            <h5><i class="fas fa-robot"></i> &nbsp; bpx SHILA - the Chatbot</h5>
+                            <p>
+                                Microsoft Azure, Azure FunctionApp, API Management, C# .NET Core, Microsoft Graph API, Microsoft Cognitive Services - LUIS, and QnA Maker, App Service Environment,
+                                Machine Learning, ServiceNOW
+                            </p>
+                            </br>
+                            <div class="divider-project"></div>
+                            </br>
+                            <p style="color: ghostwhite; font-weight: normal;">
+                                SHILA - <u>S</u>elf <u>H</u>elp <u>I</u>nteractive <u>L</u>earning <u>A</u>>ssistant
+                                As part of continued service improvement, I proposed designed platform to design, develop and deploy automations which helps our business users to get IT support at their
+                                fingertips. IT services like "How-To" related help, reporting issues, requests like user administration, license management and cloud resource provisioning etc.,
+                                My roles in this project are - Solution Architect, DevOps Engineer, and Business Analyst.
+                                Designed solution to host on Azure serverless platform and deployed chatbot as an app on Microsoft Teams Desktop application. Built ML model to predict the application instance,
+                                assignment group and priority of the issue being reported by user based on issue description. This helped to route the ticket to concerned team for speedy resolution.
+                                Created report to measure the chatbot adoptability which shows returning vs. new users, user feedback and opportunity to improve functionality.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <!--PROJECT: Design Standards for application hosting-->
+                <div class="col s12 m6 l4 project z-projects-depth">
+                    <div class="card  fadeIn">
+                        <div class="card-content" style="background-color: rgba(20, 137, 233);">
+                            <h5><i class="fas fa-stopwatch"></i> &nbsp; Application Standards for 3-tiered application hosting</h5>
+                            <p>
+                                Microsoft Azure, Azure FunctionApp, API Management, App Service Environment, Service bus, AKS, Web Apps
+                            </p>
+                            </br>
+                            <div class="divider-project"></div>
+                            </br>
+                            <p style="color: ghostwhite; font-weight: normal;">
+                                Designed standard hosting architecture for project team (developing cloud native apps).
+                                For 3-tier applications - 
+                                front-end (with JQuery/reactJS and HTML) static website off of storage account
+                                application tier on server-less services with API management (for AuthN/AuthZ) and this can be reused with other applications
+                                Backend on managed service with private endpoints that application tier can communicate with.
+                                This helped project team to focus on developing functionalities, and time to market decreased by 25%.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--PROJEC: Last Well On Venture-->
+
+                <!--PROJECT: -->
             </div>
         </div>
     </section>
